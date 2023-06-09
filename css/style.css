@@ -1,0 +1,49 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*-------*/
+
+/*----GENERAL----*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+/*---------------*/
+
+/*-------DEBUG---------*/
+
+.debug{
+
+    background-color: aqua;
+    border: 3px dashed red;
+}
+
+.debug header{
+    background-color: goldenrod;
+    border: 3px dotted green;
+}
+
+.debug main{
+    background-color: crimson;
+    border: 3px solid blue;
+}
+
+.debug footer{
+    background-color: darkorange;
+    border: 3px dashed blueviolet;
+}
