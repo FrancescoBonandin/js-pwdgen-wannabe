@@ -6,14 +6,23 @@
 }
 /*-------*/
 
+img{
+    width: 30%;
+    aspect-ratio:1;
+}
+
 #password-display{
     color:lightcoral ;
     background-color: lightcoral;
     display: inline-block;
+    padding:1rem;
+
 }
 
 #password-display::selection{
-    color:blue ;
+    color:aqua ;
     background-color: lightcoral;
 }
+
+
 
