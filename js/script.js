@@ -2,7 +2,7 @@ const userName = prompt( 'Ciao, mi dici il tuo nome?');
 
 // console.log(userName, typeof userName);
 
-const userSurname = userSurname = prompt( `Bel nome!
+const userSurname  = prompt( `Bel nome!
 ti va di dirmi il tuo cognome?`);
 
 // console.log(userSurname, typeof userSurname);
